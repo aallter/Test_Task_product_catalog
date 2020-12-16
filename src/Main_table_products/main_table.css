@@ -1,0 +1,13 @@
+.header{
+    background-color: grey;
+}
+
+.header>ul{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+    padding: 1%;
+    color: white;
+    list-style:none;
+}
