@@ -1,9 +1,11 @@
 import React from 'react';
-import './main_table.css';
+import table from './main_table.module.css';
+import Card_Product from '../Product/Product_card';
 
 let TableProducts = () => {
     return(
         <div>
+            <Card_Product/>
         </div>
     );
 }

@@ -14,7 +14,7 @@ let Registration = () => {
               <p><input type="text" placeholder="Your login" name="login"/></p>
               <p><input type="password" placeholder="Your password" name="password"/></p>
               <p><input type="password" placeholder="True again your password" name="password"/></p>
-              <p><input type="submit" value="Registration" className={regstyle.subInput}/></p>
+              <p><input type="submit" value="Registration" /></p>
               <NavLink to="/sign_in">Sign in</NavLink>
             </form>
         </div>

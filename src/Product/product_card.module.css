@@ -1,0 +1,44 @@
+.cardProd{
+    width:20%;
+    height:auto;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 2%;
+    border: 1px solid rgb(5, 80, 17);
+    border-radius: 5px;
+
+    position: absolute;
+}
+.img{
+    
+    width:100%;
+}
+.infoProd{
+    color:grey;
+    font-size: 12px;
+}
+button{
+    width:80px;
+    height:25px;
+    background-color: rgb(228, 231, 27);
+    color:white;
+    border:none;
+    margin: 1%;
+    border-radius: 5px;
+    cursor:pointer;
+    transition:.5s;
+}
+button:hover{
+    background-color: rgba(28, 182, 92, 0.671);
+}
+button:active{
+    background-color: grey;
+}
+h3+span{
+    position: relative;
+    top:-41.5px;
+    left:50%;
+}
+.days{
+    margin-top: -50px;
+}

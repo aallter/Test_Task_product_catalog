@@ -1,13 +1,13 @@
 import React from 'react';
-import './main_table.css';
+import head from './main_table.module.css';
 
 let Header = () => {
     return (
-        <div className="header">
+        <div className={head.header}>
             <ul>
-                <li>UserName</li>
-                <li>Catalog</li>
-                <li>Exit</li>
+                <li><a href="#">UserName</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="#">Exit</a></li>
             </ul>
         </div>
     );

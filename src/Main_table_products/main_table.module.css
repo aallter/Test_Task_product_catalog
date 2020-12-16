@@ -1,0 +1,19 @@
+.header{
+    background-color: rgb(39, 39, 39);
+    height:auto;
+    color:#cacaca;
+    box-sizing: border-box;
+    padding: 1%;
+
+}
+.header>ul{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    color: white;
+    list-style:none;
+    font-size:12px;
+}
+li:first-child{
+    width:80%;
+}
